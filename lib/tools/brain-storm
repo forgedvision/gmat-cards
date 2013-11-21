@@ -1,0 +1,9 @@
+create incremental seed files?
+could you actually store them in the db? and then load?
+
+
+or one big one?
+they have to be named "seed"
+
+
+create groups separately or with the actual content? probably content

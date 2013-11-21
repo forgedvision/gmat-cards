@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  term: MyString
+  meaning: MyString
+  done: false
+  group_id: 1
+
+two:
+  term: MyString
+  meaning: MyString
+  done: false
+  group_id: 1

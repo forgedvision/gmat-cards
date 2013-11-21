@@ -1,0 +1,11 @@
+<div id="card">
+  <h2 id="term">
+    <%= @card.term %>
+  </h2>
+  <h4 id="meaning">
+    <%= @card.meaning %>
+  </h4>
+</div>
+<br />
+<%= @group.name %> (<%= @group.cards.count %> cards) | <%= link_to 'Home', root_path %>
+
