@@ -3,13 +3,11 @@ body {
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
-  line-height: 18px;
 }
 
 p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
-  line-height: 18px;
 }
 
 pre {
@@ -51,6 +49,7 @@ h4 {
   border-width:2px;
   -moz-border-radius: 15px;
   border-radius: 15px;
+  word-wrap: break-word;
 }
 
 #notice {

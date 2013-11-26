@@ -6,7 +6,7 @@
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 
-<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
 
 <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 <link href='http://fonts.googleapis.com/css?family=Radley' rel='stylesheet' type='text/css'>
@@ -19,11 +19,18 @@
     $("#meaning").hide();
 
     $("#card").click(function () {
-      if ($("#meaning").is(":hidden")) {
+
+			if ( !$.trim( $('#meaning').html() ).length ){
+				location.reload();
+			}
+			
+			if ($("#meaning").is(":hidden")) {
         $("#meaning").show("fast");
       } else {
         location.reload();
       }
+			
+			
     });
   });
 </script>
